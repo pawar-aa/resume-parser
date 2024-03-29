@@ -1,0 +1,62 @@
+/* UploadResume.css */
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .upload-section {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .upload-box {
+    padding: 50px;
+    background-color: #f9f9f9;
+    border: 2px dashed #aaa;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .upload-box input[type="file"] {
+    display: none;
+  }
+  
+  .upload-box span {
+    display: block;
+    margin-top: 10px;
+    color: #888;
+  }
+  
+  .upload-section button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-section button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .upload-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload-section p {
+    margin-top: 20px;
+  }
