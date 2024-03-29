@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Resume Reader
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application that allows users to upload resumes and retrieve structured information from them using the Mindee API.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+The Resume Reader is a React-based web application that enables users to upload their resumes in various formats, such as PDF or Word documents. The application then processes these resumes using the Mindee API to extract structured information, including candidate contact details, work experience, skills, and more.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the Resume Reader locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the repository to your local machine:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/your-username/resume-reader.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Navigate to the project directory:
+   ```bash
+   cd resume-reader
+   ```
+Install dependencies:
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This will install the following libraries and APIs:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React: A JavaScript library for building user interfaces.
+axios: A promise-based HTTP client for making API requests.
+react-dropzone: A React component for handling file uploads via drag and drop.
+mindee: A JavaScript client for interacting with the Mindee API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Usage
+Drag and drop your resume file into the designated area or click the "Choose File" button to select a file from your computer.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Click the "Submit" button to upload your resume to the server.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+After the upload is complete, click the "Get Job Status" button to retrieve the extracted information from your resume.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The extracted information will be displayed in the right half of the screen, organized into relevant sections such as contact details, work experience, skills, and summary.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## API Documentation
+The Resume Reader uses the Mindee API to extract information from resumes. For API documentation and usage instructions, refer to the Mindee API Documentation.
 
-## Learn More
+## Contributing
+Contributions are welcome! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License.
